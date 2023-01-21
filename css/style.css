@@ -51,16 +51,6 @@ h3{
     padding-bottom: 2%;
     justify-content: space-between;
 }
-.risam-descripcion{
-    text-align: justify;
-    font-size: small;
-    font-family:monospace;
-    padding: 10px 20px;
-    padding-top: 3%;
-    font-style: normal;
-    font-weight: bold;
-    
-}
 
 .img-central{
     width: 40%;
@@ -90,7 +80,7 @@ h3{
 .sociales a{
     font-size: 35px;
 }
-header{
+.sb-header{
     background-color: #ff5b28;
     color: #fff;
 }
