@@ -42,7 +42,6 @@ h2{
 }
 h3{
     font-family: monospace;
-    padding-left: 8%;
 }
 .p-historia{
     font-family: monospace;
@@ -80,13 +79,12 @@ h3{
 .sociales a{
     font-size: 35px;
 }
-.sb-header{
+header{
     background-color: #ff5b28;
-    color: #fff;
 }
 
 .risam-galeria img{
-    width: 40%;
+    width: 30%;
     display: flex;
     text-align: center;
     margin-left: auto;
@@ -98,3 +96,12 @@ h3{
     width: 50%;
     height: 100%;
    }
+
+   .navbar-brand{
+    color: #fff;
+   }
+
+   .nav-link{
+    color: #fff;
+   }
+
