@@ -1,10 +1,12 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
 
-.img-logo{
+
+
+.img-logo {
     width: 10%;
     height: 10%;
     padding-top: 1%;
@@ -12,7 +14,7 @@
     padding-left: 10%;
 }
 
-.nav-bar{
+.nav-bar {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -21,7 +23,7 @@
     color: rgb(90, 40, 40);
 }
 
-.nav-enlace{
+.nav-enlace {
     list-style-type: none;
     text-decoration: none;
     font-size: large;
@@ -30,20 +32,23 @@
     padding: 10px 20px;
 }
 
-h1{
+h1 {
     text-align: center;
-    font-family:monospace;  
+    font-family: monospace;
     padding-top: 5%;
     padding-bottom: 1%;
-    }
-h2{
-    text-align: center;
-    font-family:monospace;
 }
-h3{
+
+h2 {
+    text-align: center;
     font-family: monospace;
 }
-.p-historia{
+
+h3 {
+    font-family: monospace;
+}
+
+.p-historia {
     font-family: monospace;
     padding-left: 5%;
     padding-right: 5%;
@@ -51,7 +56,7 @@ h3{
     justify-content: space-between;
 }
 
-.img-central{
+.img-central {
     width: 40%;
     height: auto;
     border-radius: 17%;
@@ -63,45 +68,70 @@ h3{
     padding-bottom: 5%;
 }
 
-#sp-footer{
+#sp-footer {
     background-color: #ff5b28;
     color: #fff;
     text-align: center;
     padding: 20px 0;
     font-family: monospace;
     display: fixed;
-    }
-.sociales{
+}
+
+.sociales {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
-.sociales a{
+
+.sociales a {
     font-size: 35px;
 }
-header{
+
+header {
     background-color: #ff5b28;
 }
 
-.risam-galeria img{
+.risam-galeria img {
     width: 30%;
     display: flex;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    
-   }
 
-   .img-fluid{
+}
+
+.img-fluid {
     width: 50%;
     height: 100%;
-   }
+}
 
-   .navbar-brand{
+.navbar-brand {
     color: #fff;
-   }
+}
 
-   .nav-link{
+.nav-link {
     color: #fff;
-   }
+}
 
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 80px;
+
+}
+
+.grid1 div {
+    padding: 1rem;
+
+}
+
+:hover {
+    border: 1px solid #ff5b28;
+}
+
+
+}
+
+
+}
