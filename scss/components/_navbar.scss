@@ -1,0 +1,25 @@
+.nav-bar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10%;
+    color: rgb(90, 40, 40);
+}
+
+.nav-enlace {
+    list-style-type: none;
+    text-decoration: none;
+    font-size: large;
+    font-family: monospace;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+}
+
+.navbar-brand {
+    color: #fff;
+}
+
+.nav-link {
+    color: #fff;
+}

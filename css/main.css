@@ -1,1 +1,79 @@
-/*# sourceMappingURL=main.css.map */
+.risam-galeria img {
+  width: 30%;
+  display: flex;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sociales {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.sociales__a {
+  font-size: 35px;
+}
+
+header {
+  background-color: #ff5b28;
+}
+
+.nav-bar {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10%;
+  color: rgb(90, 40, 40);
+}
+
+.nav-enlace {
+  list-style-type: none;
+  text-decoration: none;
+  font-size: large;
+  font-family: monospace;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+}
+
+.navbar-brand {
+  color: #fff;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+#sp-footer {
+  background-color: #ff5b28;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  font-family: monospace;
+  display: fixed;
+}
+
+h1 {
+  text-align: center;
+  font-family: monospace;
+  padding-top: 5%;
+  padding-bottom: 1%;
+}
+
+h2 {
+  text-align: center;
+  font-family: monospace;
+}
+
+h3 {
+  font-family: monospace;
+}
+
+.p-historia {
+  font-family: monospace;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 2%;
+  justify-content: space-between;
+}/*# sourceMappingURL=main.css.map */
