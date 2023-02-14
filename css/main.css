@@ -15,6 +15,70 @@
   font-size: 35px;
 }
 
+.contenedor_padre {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 10vh 10vh 20vh 10vh 20vh 10vh 20vh;
+  grid-template-areas: "titulo titulo" "subtitulo    subtitulo" "revista      revista     " "marco_normativo marco_normativo" "mnlinks       mnlinks" "atencion_sm atencion_sm" "asmlinks      asmlinks";
+}
+
+.titulo {
+  border: solid 1px #ff5b28;
+  padding-top: 10px;
+  grid-area: titulo;
+}
+
+#subtitulo {
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: left;
+  font-family: monospace;
+}
+
+.revista {
+  grid-area: revista;
+  display: flex;
+  justify-content: center;
+}
+
+.numero1 {
+  text-decoration: none;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+#mn {
+  grid-area: marco_normativo;
+}
+
+.marco_normativo {
+  grid-area: mnlinks;
+  text-decoration: none;
+  text-align: center;
+}
+.marco_normativo a {
+  display: flex;
+  text-decoration: none;
+  grid-area: mnlinks;
+  justify-content: center;
+}
+
+#a_sm {
+  grid-area: atencion_sm;
+}
+
+#atencion_sm {
+  grid-area: asmlinks;
+  padding-bottom: 20px;
+}
+#atencion_sm a {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+}
+
 header {
   background-color: #ff5b28;
 }
@@ -68,6 +132,12 @@ h2 {
 
 h3 {
   font-family: monospace;
+}
+
+h5 {
+  font-family: monospace;
+  padding-left: 50px;
+  padding-top: 20px;
 }
 
 .img-logo {
