@@ -184,4 +184,7 @@ h5 {
     width: 75%;
     height: 75%;
   }
+  .card img {
+    width: 130px;
+  }
 }/*# sourceMappingURL=main.css.map */
