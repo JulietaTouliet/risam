@@ -1,82 +1,72 @@
 .contenedor_padre {
     display: grid;
-    grid-template-columns: 40% 60%;
-    grid-template-rows: 10vh 10vh 20vh 10vh 20vh 10vh 20vh;
-
-
-    grid-template-areas: "titulo titulo"
-                         "subtitulo    subtitulo"
-                         "revista      revista     "
-                         "marco_normativo marco_normativo"
-                         "mnlinks       mnlinks"
-                         "atencion_sm atencion_sm"
-                         "asmlinks      asmlinks";
-
-}
-
-.titulo {
-    border: solid 1px #ff5b28;
-    padding-top: 10px;
-    grid-area: titulo;
-
-}
-
-#subtitulo {
-    padding-left: 50px;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    text-align: left;
-    font-family: monospace;
-
-}
-
-.revista {
-    grid-area: revista;
-    display: flex;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: auto auto auto;
     justify-content: center;
 
-}
-
-.numero1 {
-    text-decoration: none;
-    text-align: center;
-    padding-left: 10px;
-    padding-right: 20px;
 
 }
 
-#mn {
-    grid-area: marco_normativo;
-}
+.card {
+    width: 50%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+    display: flex;
+    flex-direction: column;
 
 
-.marco_normativo {
-    grid-area: mnlinks;
-    text-decoration: none;
-    text-align: center;
 
-    a {
-        display: flex;
-        text-decoration: none;
-        grid-area: mnlinks;
-        justify-content: center;
+    img {
+        width: 180px;
+        margin: 0 auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
     }
 
+    .contenido {
+        text-align: center;
+
+        a {
+            text-decoration: none;
+            display: inline-block;
+            padding: 10px;
+            color: #eb910a;
+            border: 1px solid #eb910a;
+            border-radius: 4px;
+        }
+    }
+
+
 }
 
-#a_sm {
-    grid-area: atencion_sm;
+.card:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 4);
+    transform: translateY(-3%);
 }
 
-#atencion_sm {
-    grid-area: asmlinks;
-    padding-bottom: 20px;
+.container_lr {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    grid-template-areas: "sobreNosotros"
+        "descripcion"
+        "imagen";
     
-    a {
-        display: flex;
-        text-decoration: none;
-        justify-content: center;
-
-    }
 
 }
+
+#la_residencia {
+    grid-template-areas: "sobreNosotros";
+    justify-content: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
